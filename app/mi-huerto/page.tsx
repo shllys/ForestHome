@@ -226,7 +226,7 @@ export default function MiHuerto() {
 
   return (
     <main className="flex justify-center items-center px-2 py-4 text-white w-full h-full overflow-hidden">
-      <div className="flex w-full bg-[url(/bgforest.png)] bg-cover border border-[#d6c8ae]/30 rounded-2xl gap-3 p-3 h-[85vh] min-h-0 overflow-hidden">
+      <div className="flex w-full bg-[url(/bgforest.png)] bg-cover border border-[#d6c8ae]/30 rounded-2xl gap-3 p-3 h-[86vh] min-h-0 overflow-hidden">
         {/* COLUMNA IZQUIERDA: Listado de plantas guardadas y buscador */}
         <div className="w-full max-w-[300px] flex flex-col bg-[#25522c]/40 backdrop-blur-md border border-gray-600/30 rounded-xl p-3 min-h-0">
           {/* Barra de búsqueda interactiva */}
@@ -332,7 +332,7 @@ export default function MiHuerto() {
                     </span>
                   </div>
 
-                  <div className="overflow-auto [&::-webkit-scrollbar]:hidden h-90 mt-4">
+                  <div className="overflow-auto [&::-webkit-scrollbar]:hidden h-[43vh] mt-5">
                     {/* 1. 📅 MEJORA: Calendario Dinámico de Siembra en Rejilla */}
                     <div className="bg-black/10 p-3 rounded-xl border border-gray-700/30">
                       <span className="block text-xs font-semibold text-emerald-400 mb-2">

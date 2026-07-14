@@ -138,7 +138,8 @@ export default function Home() {
       <main className="flex justify-center items-center px-4 text-white w-full h-full">
         <div className="flex w-full bg-black/20 border border-gray-700 rounded-2xl gap-3 p-3 h-[85vh] animate-pulse">
           {/* Esqueleto de la barra lateral */}
-          <div className="flex w-185 bg-gray-800/30 rounded-xl p-6 gap-4">
+          <div className="flex w-247 bg-gray-800/30 rounded-xl p-6 gap-4">
+            <div className="h-40 bg-gray-700 rounded-lg w-60"></div>
             <div className="h-40 bg-gray-700 rounded-lg w-60"></div>
             <div className="h-40 bg-gray-700 rounded-lg w-60"></div>
           </div>
@@ -148,14 +149,13 @@ export default function Home() {
             <div className="h-10 bg-gray-700 rounded-lg w-full"></div>
             <div className="h-20 bg-gray-700 rounded-lg w-full"></div>
           </div>
-          {/* Esqueleto del visor de detalles */}
         </div>
       </main>
     );
   }
 
   return (
-    <div className="flex w-full  bg-[url(/bgforest.png)] border border-[#d6c8ae]/30 rounded-2xl gap-3 p-3 h-[85vh]  overflow-hidden">
+    <div className="flex w-full  bg-[url(/bgforest.png)] border border-[#d6c8ae]/30 rounded-2xl gap-3 p-3 h-[86vh]  overflow-hidden">
       <div className="flex px-1 w-full items-start flex-wrap overflow-auto [&::-webkit-scrollbar]:hidden bg-linear-to-t from-[#25522c]/70 to-[#d6c8ae]/50 backdrop-blur-xs rounded-xl border-2 border-[#d6c8ae]/50">
         
         {filteredPlants.map((plant) => (

@@ -25,7 +25,7 @@ export default function AppShell({ children }: { children: React.ReactNode }) {
 
   return (
     <main className="min-h-screen flex justify-center items-center px-2 py-4">
-      <div className="rounded-2xl w-full max-w-[1300px] h-[95vh] flex flex-col bg-linear-to-t from-[#d6c8ae]/50 to-[#3B5265]/70 backdrop-blur-xs border-2 border-[#d6c8ae]/50 px-4 py-3">
+      <div className="rounded-2xl w-full max-w-[1550px] h-[95vh] flex flex-col bg-linear-to-t from-[#d6c8ae]/50 to-[#3B5265]/70 backdrop-blur-xs border-2 border-[#d6c8ae]/50 px-4 py-3">
         <header className="flex pb-3 items-center justify-between">
           <div className="flex flex-col gap-3 sm:flex-row sm:items-center">
             {user ? (
@@ -88,15 +88,15 @@ export default function AppShell({ children }: { children: React.ReactNode }) {
               🖼️
             </Link>
 
-            <Link
+            {/* <Link
               href="#"
               className="hover:text-emerald-600 transition border border-[#91D49D] bg-[#3B5265] py-1 px-3 rounded-2xl text-2xl"
             >
               🪢
-            </Link>
+            </Link> */}
           </aside>
 
-          <section className="w-650">{children}</section>
+          <section className="w-750">{children}</section>
         </div>
       </div>
     </main>
