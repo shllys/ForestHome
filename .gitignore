@@ -1,0 +1,26 @@
+# Dependencias (carpetas ultra pesadas)
+node_modules/
+
+# Compilación y producción de Next.js
+.next/
+out/
+build/
+
+# Variables de Entorno y Credenciales Secretas (¡CRÍTICO!)
+.env
+.env.local
+.env.production.local
+.env.development.local
+.env.local.errors
+.env.sample
+
+# Archivos del Sistema Operativo
+.DS_Store
+*.pem
+
+# Archivos de configuración local de editores (Opcional pero recomendado)
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
