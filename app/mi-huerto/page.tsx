@@ -228,7 +228,7 @@ export default function MiHuerto() {
     <main className="flex justify-center items-center px-2 py-4 text-white w-full h-full overflow-hidden">
       <div className="flex flex-col md:flex-row w-full bg-[url(/bgforest.png)] bg-cover border border-[#d6c8ae]/30 rounded-2xl gap-3 p-3 h-[86vh] min-h-0 overflow-hidden">
         {/* COLUMNA IZQUIERDA: Listado de plantas guardadas y buscador */}
-        <div className="w-full max-w-[220px] md:max-w-[300px] flex flex-col bg-[#25522c]/40 backdrop-blur-md border border-gray-600/30 rounded-xl p-3 h-40 md:min-h-0">
+        <div className="w-full max-w-[220px] md:max-w-[300px] flex flex-col bg-[#25522c]/40 backdrop-blur-md border border-gray-600/30 rounded-xl p-3 h-40 md:h-full">
           {/* Barra de búsqueda interactiva */}
           <div className="mb-3">
             <input
