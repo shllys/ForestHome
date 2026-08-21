@@ -68,4 +68,7 @@ Si deseas clonar este proyecto y ejecutarlo en tu entorno local, sigue estos pas
    ```bash
    git clone [https://github.com/shllys/ForestHome.git](https://github.com/shllys/ForestHome.git)
    cd ForestHome
+<<<<<<< HEAD
    ```
+=======
+>>>>>>> e5c0db98d3356798fd508f9ee8000aefa655aa7a
