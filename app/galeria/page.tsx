@@ -356,7 +356,7 @@ export default function Galeria() {
 
   return (
     <main className="flex justify-center items-center px-2 py-4 text-white w-full">
-      <div className="w-62 md:w-427 bg-[url(/bgforest.png)] bg-cover border border-[#d6c8ae]/30 rounded-2xl gap-3 p-3 min-h-[86vh]">
+      <div className="w-62 md:w-382 bg-[url(/bgforest.png)] bg-cover border border-[#d6c8ae]/30 rounded-2xl gap-3 p-3 min-h-[86vh]">
         <div className="flex justify-between items-center mb-3 bg-[#25522c]/40 backdrop-blur-md border border-gray-600/30 p-1.5 rounded-lg ">
           <h1 className="text-md md:text-4xl font-[indie_flower] text-white">
             Galería Comunitaria de ForestHome🌿
