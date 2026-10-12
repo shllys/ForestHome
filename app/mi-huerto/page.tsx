@@ -190,7 +190,7 @@ export default function MiHuerto() {
     return (
       <main className="flex justify-center items-center px-4 text-white w-full h-full">
         <div className="flex w-full bg-black/20 border border-gray-700 rounded-2xl gap-3 p-3 h-[85vh] animate-pulse">
-          <div className="w-[300px] bg-gray-800/50 rounded-xl p-4 space-y-4">
+          <div className="w-75 bg-gray-800/50 rounded-xl p-4 space-y-4">
             <div className="h-10 bg-gray-700 rounded-lg w-full"></div>
             <div className="h-20 bg-gray-700 rounded-lg w-full"></div>
             <div className="h-20 bg-gray-700 rounded-lg w-full"></div>
@@ -227,7 +227,7 @@ export default function MiHuerto() {
     <main className="flex justify-center items-center px-2 py-4 text-white w-full h-full overflow-hidden">
       <div className="flex flex-col md:flex-row w-full bg-[url(/bgforest.png)] bg-cover border border-[#d6c8ae]/30 rounded-2xl gap-3 p-3 h-[86vh] min-h-0 overflow-hidden">
         {/* COLUMNA IZQUIERDA: Listado de plantas guardadas y buscador */}
-        <div className="w-full max-w-[220px] md:max-w-[300px] flex flex-col bg-[#25522c]/40 backdrop-blur-md border border-gray-600/30 rounded-xl p-3 h-40 md:h-full">
+        <div className="w-full max-w-55 md:max-w-75 flex flex-col bg-[#25522c]/40 backdrop-blur-md border border-gray-600/30 rounded-xl p-3 h-40 md:h-full">
           {/* Barra de búsqueda interactiva */}
           <div className="mb-3">
             <input
@@ -591,7 +591,7 @@ export default function MiHuerto() {
                             </span>
                           </div>
                           {/* Barra de Gradiente de pH (Ácido a Alcalino) */}
-                          <div className="relative w-full h-2 bg-gradient-to-r from-red-500 via-green-500 to-purple-600 rounded-full mt-2">
+                          <div className="relative w-full h-2 bg-linear-to-r from-red-500 via-green-500 to-purple-600 rounded-full mt-2">
                             {/* Indicador posicionado de manera aproximada según el rango */}
                             <div
                               className="absolute h-3 w-3 bg-white border-2 border-black rounded-full -top-0.5 shadow-md transform -translate-x-1/2"
@@ -692,7 +692,7 @@ export default function MiHuerto() {
               </div>
 
               {/* COLUMNA INTERNA DERECHA: Imagen de la planta */}
-              <div className="w-full md:w-1/2 max-h-[300px] md:max-h-full border border-gray-700 rounded-xl overflow-hidden bg-black/40 flex items-center justify-center">
+              <div className="w-full md:w-1/2 max-h-75 md:max-h-full border border-gray-700 rounded-xl overflow-hidden bg-black/40 flex items-center justify-center">
                 {selectedPost.Plants?.image_url ? (
                   <img
                     src={selectedPost.Plants.image_url}

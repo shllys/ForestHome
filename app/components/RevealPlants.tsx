@@ -141,7 +141,7 @@ export default function RevealPlant({ plant, onClose }: RevealPlantProps) {
                 </span>
               </div>
               {/* Barra de Gradiente de pH (Ácido a Alcalino) */}
-              <div className="relative w-full h-2 bg-gradient-to-r from-red-500 via-green-500 to-purple-600 rounded-full mt-2">
+              <div className="relative w-full h-2 bg-linear-to-r from-red-500 via-green-500 to-purple-600 rounded-full mt-2">
                 {/* Indicador posicionado de manera aproximada según el rango */}
                 <div
                   className="absolute h-3 w-3 bg-white border-2 border-black rounded-full -top-0.5 shadow-md transform -translate-x-1/2"

@@ -5,7 +5,8 @@
 @custom-variant dark (&:is(.dark *));
 
 :root {
-  --bg-image: url(/bgforest.png) center/cover fixed no-repeat;
+  --bg-image: url(/ForestHome/bgforest.png) center/cover fixed no-repeat;
+
   /* --text-back: #b8ddbf; */
   --white-front: #aeb6c2;
   --top-bg: #25522c;
@@ -47,10 +48,6 @@
   --sidebar-accent-foreground: oklch(0.205 0 0);
   --sidebar-border: oklch(0.922 0 0);
   --sidebar-ring: oklch(0.708 0 0);
-}
-
-body {
-  /* color: var(--white-front); */
 }
 
 @theme inline {

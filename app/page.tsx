@@ -155,7 +155,7 @@ export default function Home() {
             <div className="h-25 lg:h-40 bg-gray-700 rounded-lg w-45 lg:w-60"></div>
           </div>
 
-          <div className="w-58 lg:w-[400px] bg-gray-800/50 rounded-xl p-2 lg:p-4 space-y-4">
+          <div className="w-58 lg:w-100 bg-gray-800/50 rounded-xl p-2 lg:p-4 space-y-4">
             <div className="h-45 bg-gray-700 rounded-lg w-full"></div>
             <div className="h-10 bg-gray-700 rounded-lg w-full"></div>
             <div className="h-20 bg-gray-700 rounded-lg w-full"></div>
@@ -173,15 +173,15 @@ export default function Home() {
           <div
             key={plant.id}
             onClick={() => setSelectedPlant(plant)} // ✨ CORRECCIÓN 3: Hacer clic en cualquier parte de la tarjeta abre los detalles
-            className="rounded-2xl overflow-hidden hover:scale-105 transition-all m-2 w-[225px] cursor-pointer"
+            className="rounded-2xl overflow-hidden hover:scale-105 transition-all m-2 w-56.25 cursor-pointer"
           >
             {/* Ícono flotante */}
-            <div className="relative top-5 left-[110px] md:left-[130px] flex items-center justify-center text-5xl bg-linear-to-br from-[#3B5265] to-[#27E9B5] rounded-2xl w-[82px] h-8 z-10">
+            <div className="relative top-5 left-27.5 md:left-32.5 flex items-center justify-center text-5xl bg-linear-to-br from-[#3B5265] to-[#27E9B5] rounded-2xl w-20.5 h-8 z-10">
               {plant.icon || "🍃"}
             </div>
 
             {/* Cuerpo de la tarjeta */}
-            <div className="p-4 bg-gradient-to-b from-[#5baf8bff]/50 to-[#2C3E50] rounded-2xl border border-[#27E9B5]/30 pt-8">
+            <div className="p-4 bg-linear-to-b from-[#5baf8bff]/50 to-[#2C3E50] rounded-2xl border border-[#27E9B5]/30 pt-8">
               <h3 className="text-xl font-semibold font-[indie_flower] text-(--platinum) truncate">
                 {plant.name}
               </h3>
@@ -235,7 +235,7 @@ export default function Home() {
       </div>
 
       {/* Vista de Detalles Derecho */}
-      <div className="max-w-[400px] h-90 md:h-full">
+      <div className="max-w-100 h-90 md:h-full">
         <div className="mb-7 h-full border-2 bg-[#2C3E50]/50 border-[#27E9B5]/40 backdrop-blur-md rounded-2xl text-cyan-950 p-4">
           {selectedPlant ? (
             <RevealPlant

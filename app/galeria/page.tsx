@@ -452,7 +452,7 @@ export default function Galeria() {
                     onClick={() => openPost(plant)}
                     className="bg-[#2C3E50]/70 border border-gray-500/70 hover:border-emerald-400 rounded-2xl overflow-hidden shadow-md hover:shadow-2xl transition-all cursor-pointer group"
                   >
-                    <div className="relative aspect-[5/3] bg-gray-900/40 flex items-center justify-center text-6xl">
+                    <div className="relative aspect-5/3 bg-gray-900/40 flex items-center justify-center text-6xl">
                       {plant.image_url ? (
                         <img
                           src={plant.image_url}
@@ -546,7 +546,7 @@ export default function Galeria() {
                   )}
               </div>
 
-              <div className="md:w-2/5 h-full p-6 bg-gradient-to-b from-[#5baf8bff]/50 to-[#2C3E50] flex flex-col overflow-y-auto [&::-webkit-scrollbar]:hidden">
+              <div className="md:w-2/5 h-full p-6 bg-linear-to-b from-[#5baf8bff]/50 to-[#2C3E50] flex flex-col overflow-y-auto [&::-webkit-scrollbar]:hidden">
                 <div className="p-4 bg-black/20 rounded-2xl border border-[#27E9B5]/20 flex flex-col gap-1 shrink-0">
                   <h3 className="text-2xl font-semibold font-[indie_flower] text-emerald-300">
                     {selectedPost.name}
