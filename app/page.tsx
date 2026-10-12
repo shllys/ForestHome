@@ -166,7 +166,10 @@ export default function Home() {
   }
 
   return (
-    <div className="flex flex-col md:flex-row w-65 md:w-full bg-[url(/bgforest.png)] border border-[#d6c8ae]/30 rounded-2xl gap-3 p-3 h-[86vh]  overflow-hidden">
+    <div
+      className="flex flex-col md:flex-row w-65 md:w-full border border-[#d6c8ae]/30 rounded-2xl gap-3 p-3 h-[86vh]  overflow-hidden"
+      style={{ background: "var(--bg-image)" }}
+    >
       {/* Vista de Plantas Izquierda */}
       <div className="flex px-2 md:px-6 w-full items-start flex-wrap overflow-auto [&::-webkit-scrollbar]:hidden bg-linear-to-t from-[#25522c]/70 to-[#d6c8ae]/50 backdrop-blur-xs rounded-xl border-2 border-[#d6c8ae]/50 h-80 md:h-full">
         {filteredPlants.map((plant) => (
